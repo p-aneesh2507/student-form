@@ -1,0 +1,70 @@
+.head{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    text-shadow: 2px 2px 8px white;
+}
+.head:hover{
+    text-shadow: 2px 2px 10px rgb(241, 199, 93);
+    transition: 1s;
+    color: blue;
+}
+.form{
+    width: 100%;
+    background-color: rgb(194, 193, 192);
+    overflow: visible;
+}
+#name{
+    box-shadow: 2px 2px 8px black;
+}
+.name{
+    background-color: aquamarine;
+    width: 30%;
+    box-shadow: 2px 2px 9px black;
+    border: 2px solid black;
+    transition: 1s;
+    margin:auto;
+    margin-block: 20px;
+    padding: 10px;
+    position: relative;
+}
+.name:hover{
+    background-color: rgb(252, 66, 76);
+    border-radius: 10%;
+}
+lable{
+    display: block;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left:10px
+}
+input{
+    width:100%;
+    box-sizing: border-box;
+}
+input:hover{
+    box-shadow: 2px 2px 8px black;
+}
+select{
+    width: 100px;
+    padding: 20px;
+    background-color: rgb(220, 230, 224);
+    cursor: pointer;
+}
+input:active{
+    background-color: rgb(10, 9, 9);
+}
+input[type="submit"]{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.submit{
+    margin: auto;
+    width: 120px;
+}
+.submit:hover{
+    box-shadow: 2px 2px 8px black;
+    background-color: rgb(233, 56, 3);
+    transition: 1s;
+}
